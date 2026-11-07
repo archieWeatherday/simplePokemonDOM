@@ -1,7 +1,10 @@
-.pokemon {
-    display: inline-block;
-    text-align: center;
+#container div{
+   display: inline-block;
+   height: auto;
+   width: auto;
 }
-.pokemon img {
-    display: block;
+#container div div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
